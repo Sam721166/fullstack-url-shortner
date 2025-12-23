@@ -23,7 +23,7 @@ urlRouter.post("/shortner", async (req, res) => {
 })
 
 
-// get the url from short url
+// get the URL from short URL
 urlRouter.get("/:shortId", async (req, res) => {
     try{
         const shortId = req.params.shortId

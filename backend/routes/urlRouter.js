@@ -70,4 +70,19 @@ urlRouter.get("/url/all", async (req, res) => {
 })
 
 
+// delete url
+urlRouter.delete("/delete/:id", async (req, res) => {
+    const url = req.params.id
+    try{
+        await urlModel.findByIdAndDelete(url)
+        return res.json({
+            msg: "url deleted successfully"
+        })
+    } catch(err){
+        console.log("error while deleting url", err)
+    }
+    
+})
+
+
 export default urlRouter

@@ -88,7 +88,7 @@ function App() {
       <div className='  flex flex-row selection:text-white selection:bg-black'>
         <div className='h-screen w-3/4 bg-white-100 left-0 top-0 sticky p-5 flex justify-center ' >
           
-          <div className='rounded-lg mt-20 w-180 h-130 bg-yellow-300 p-5 flex flex-col items-center shadow-[5px_5px_var(--color-black)] border-3 break-all px-10'>
+          <div className='rounded-lg mt-20 w-180 h-130 bg-amber-300 p-5 flex flex-col items-center shadow-[5px_5px_var(--color-black)] border-3 break-all px-10'>
             <h1 className='text-2xl font-semibold '>Enter your link</h1>
 
 
@@ -158,7 +158,7 @@ function App() {
 
 
 
-        <div className=' h-screen w-2/5  bg-yellow-300 overflow-y-auto'>
+        <div className=' h-screen w-2/5  bg-amber-300 overflow-y-auto'>
           <div className='h-full  p-5'>
             <h1 className='font-semibold text-2xl flex justify-center text-neutral-800 mb-8 '>Show all URLs</h1>
 
